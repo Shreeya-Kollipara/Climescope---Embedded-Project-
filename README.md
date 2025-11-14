@@ -84,6 +84,36 @@ to create a functional, intelligent environmental monitoring system.
 It proves how embedded systems and AI can be combined to build **smart, real-time predictive weather solutions.**
 
 ---
+Climescope---Embedded-Project/
+│
+├── README.md
+│
+├── Weather/                     → ESP32 IoT Firmware (PlatformIO)
+│   ├── include/
+│   ├── lib/
+│   ├── src/
+│   │   ├── app.py               → API communication script
+│   │   └── test_post.py         → Test POST script
+│   ├── test/
+│   ├── platformio.ini
+│
+└── ClimeScope/                  → Machine Learning Forecasting System
+    ├── scripts/
+    │   ├── sensor_forecast.py
+    │   └── sensor_forecast_chennai.py
+    │
+    ├── src/
+    │   ├── app.py               → Main Flask API backend
+    │   └── test_post.py         → API testing client
+    │
+    ├── ClimeScope.code-workspace
+    ├── LICENSE
+    ├── aqi_timeseries.png
+    ├── day8_prediction.png
+    ├── forecast_model.pkl       → Trained ML model
+    ├── humidity_timeseries.png
+    ├── sensor_data.csv
+    └── temperature_timeseries.png
 
 
 
