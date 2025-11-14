@@ -2,14 +2,13 @@
 
 # 🌿 ClimeScope: ESP32 Environmental Monitoring Dashboard
 
-### *Embedded Project Presentation*
 
 ---
 
 ## 👥 **Team Members**
+- **Shreeya Kollipara**
 - **Saumya Agarwal**
 - **Meghna Mandawra**
-- **Shreeya Kollipara**
 
 ---
 
@@ -85,5 +84,6 @@ to create a functional, intelligent environmental monitoring system.
 It proves how embedded systems and AI can be combined to build **smart, real-time predictive weather solutions.**
 
 ---
+
 
 
